@@ -1,0 +1,134 @@
+/*______________________________________________________________1280______________________________________________________________*/
+@media screen and (min-width: 1280px) {
+  .container {
+    grid-template-rows: repeat(11, 250px);
+  }
+  /*стили алины*/
+  .alina {
+    display: none;
+  }
+    /*стили 2 блока (надпись)*/
+  .block2 {
+    background: url('images/line11280.svg');
+  }
+  .b2t1 p {
+    font-size: 50px;
+  }
+  /*стили слез*/
+  .tears {
+    width: 320px;
+    height: 250px;
+    background: url('images/tears1280.svg');
+    animation: tears1280.7s steps(1) infinite;
+  }
+  @keyframes tears1280 {
+    0% {background-position: 0 0;}
+    5% {background-position: -320px 0;}
+    10% {background-position: -640px 0;}
+    15% {background-position: -960px 0;}
+    20% {background-position: -1280px 0;}
+    25% {background-position: -1600px 0;}
+    30% {background-position: -1920px 0;}
+    35% {background-position: -2240px 0;}
+    40%  {background-position: -2560px 0;}
+    45%  {background-position: -2880px 0;}
+    50%  {background-position: -3200px 0;}
+    55%  {background-position: -3520px 0;}
+    60%  {background-position: -3840px 0;}
+    65%  {background-position: -4160px 0;}
+    70%  {background-position: -4480px 0;}
+    75%  {background-position: -4800px 0;}
+    80%  {background-position: -5120px 0;}
+    85%  {background-position: -5440px 0;}
+    90%  {background-position: -5760px 0;}
+    95%  {background-position: -5760px 0;}
+    100%  {background-position: -5760px 0;}
+  }
+  /*стили долларов*/
+  .block6 {
+    background: url('images/money11280.svg');
+  }
+  .block6:hover {
+    background: url('images/money21280.svg');
+  }
+  /*стили с солнцем*/
+  }
+  .b7t1 p {
+    font-size: 55px;
+    padding-top: 100px;
+    padding-left: 45px;
+  }
+  .sun {
+    width: 217px;
+    height: 211px;
+    margin-top: 15px;
+    background: url('images/sun11280.svg');
+  }
+  .sun:hover {
+    background: url('images/sun21280.svg');
+  }
+  .block9 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .heart1 {
+    width: 157px;
+    height: 164px;
+    background: url('images/heart11280.svg');
+  }
+  .heart2 {
+    width: 129px;
+    height: 182px;
+    background: url('images/heart21280.svg');
+  }
+  .heart3 {
+    width: 150px;
+    height: 173px;
+    background: url('images/heart31280.svg');
+  }
+  .heart1:hover {
+    background: url('images/heart121280.svg');
+  }
+  .heart2:hover {
+    background: url('images/heart221280.svg');
+  }
+  .heart3:hover {
+    background: url('images/heart321280.svg');
+  }
+  /*стили блока со звездами*/
+  .stars {
+    margin-top: 10px;
+    width: 480px;
+    height: 280px;
+    background: url('images/stars1280.svg');
+    animation: stars1440 0.7s steps(1) infinite;
+  }
+  @keyframes stars1440 {
+    0% {background-position: 0 0;}
+    50% {background-position: -480px 0;}
+    100% {background-position: -960px 0;}
+    }
+  .block10 p {
+    padding-top: 10px;
+    font-size: 50px;
+  }
+  .b10t2 {
+    margin-left:-10px;
+  }
+  /*стили черных сердец*/
+  .blackhearts {
+    width: 320px;
+    height: 500px;
+    background: url('images/blackheart1280.svg');
+    animation: bheart1280 0.8s steps(1) infinite;
+  }
+  @keyframes bheart1280 {
+    0% {background-position: 0 0;}
+    16% {background-position: -320px 0;}
+    32% {background-position: -640px 0;}
+    48% {background-position: -960px 0;}
+    64% {background-position: -1280px 0;}
+    80% {background-position: -1600px 0;}
+  }
+}
